@@ -1,2 +1,2 @@
 # Password-Strenght-Checker
-A Password Strenght Checker using Python
+A Python script that analyzes password strength and checks against a common password list.
