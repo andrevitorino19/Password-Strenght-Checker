@@ -27,14 +27,34 @@ The objective of this project is to build a simple Python script that evaluates 
    git clone https://github.com/YOUR_USERNAME/password-strength-checker.git
    cd password-strength-checker
    
+## Run the script:
+```bash
+python password_checker.py
+```   
+
+## Example Output
+```bash
+Welcome to Andre's Password Strength Checker!
+
+Do you really trust a Python script made by a newbie? Press Enter to proceed...
+
+Enter the password: My_Strong@Pass99
+
+The password is strong! Score: 7 / 10
+```
+
 ## Requirements
  - Python 3.x
  - common.txt file with a list of common passwords.
 
-## Run the script:
+## File Structure
 ```bash
-python password_checker.py
-```bash
+password-strength-checker/
+│
+├── password_checker.py   # The main Python script
+├── common.txt            # List of common passwords
+└── README.md             # Project documentation
+```
 
-
+## License
 
